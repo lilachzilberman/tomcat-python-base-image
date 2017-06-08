@@ -169,6 +169,8 @@ RUN mkdir /opencv-3.2.0/cmake_binary \
   -DBUILD_opencv_java=OFF \
   -DWITH_CUDA=OFF \
   -DENABLE_AVX=OFF \
+  -DENABLE_SSE3=OFF \
+  -DENABLE_SSE4=OFF \
   -DWITH_OPENGL=ON \
   -DWITH_OPENCL=ON \
   -DWITH_IPP=ON \
